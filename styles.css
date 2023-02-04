@@ -1,0 +1,114 @@
+a {
+    font-size: 20pt;
+    font-weight: 200;
+    margin-right: 20pt;
+    color: #a9d1ea;
+}
+
+a:hover {
+    background-color: #a9d1ea;
+    color: black;
+}
+
+header {
+    color: white;
+    text-align: center;
+    padding: 10px;  
+}
+
+body {
+    background-image: url(/pictures/Blue.png);
+    background-size: cover;
+}
+
+h1 {
+    font-size: 50pt;
+}
+
+h2 {
+    font-size: 30pt;
+    color: white;
+    margin-bottom: 5px;
+    background-color: #30679D;
+    padding: 10px;
+}
+
+p {
+    font-size: 18pt;
+    padding: 20px;
+    color: lightgray;
+}
+
+input {
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: medium;
+}
+
+form {
+    padding: 0 0 12px 15px;
+}
+
+input[type=submit]:hover{
+    color: blue;
+}
+
+input[type=submit]:active{
+    color: white;
+    background-color: black;
+}
+
+#homepagePics {
+    width:  700px;
+    height: 600px;
+    object-fit: cover;
+}
+
+img {
+    width:  500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+ul {
+    font-size: 18pt;
+    color: lightgray;
+    list-style-position: inside;
+}
+
+table {
+    color: lightgray;
+    font-size: 18pt;
+    
+    margin: 0 12px 20px 12px;
+}
+
+table td, table th {
+    border: 1px solid;
+    padding: 8px;
+    
+}
+
+table tr:nth-child(even){
+    background-color: #30679D;
+}
+
+table tr:hover {
+    background-color: #a9d1ea;
+    color: black;
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: white;
+  color: #30679D;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
