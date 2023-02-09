@@ -61,14 +61,14 @@ input[type=submit]:active{
 }
 
 #homepagePics {
-    width:  700px;
-    height: 600px;
+    width:  70vh;
+    height: 30vw;
     object-fit: cover;
 }
 
 img {
-    width:  500px;
-    height: 500px;
+    width:  30vw;
+    height: 30vh;
     object-fit: cover;
 }
 
